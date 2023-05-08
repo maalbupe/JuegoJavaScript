@@ -11,4 +11,5 @@ Si las cartas no coinciden, se volverán a voltear boca abajo y tendrás que rec
 
 Pero eso no es todo, he querido añadir un toque especial a este juego, por lo que, las cartas están personalizadas con imágenes significativas para mí.
 
-Voy a utilizar la fucnión setInterval para mostrar un temporizador en el juego. Y la fucnión clearInterval para detener el temporizador cuando finaliza el juego o cuando el jugador encuentra todas las parejas de cartas.
+
+Voy a utilizar la fucnión setInterval para mostrar un temporizador en el juego , también para  para mostrar brevemente las cartas antes de voltearlas boca abajo nuevamente. Y la fucnión clearInterval para detener el temporizador cuando finaliza el juego o cuando el jugador encuentra todas las parejas de cartas.
