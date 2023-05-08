@@ -15,3 +15,4 @@ Pero eso no es todo, he querido añadir un toque especial a este juego, por lo q
 Voy a utilizar la función setInterval para mostrar un temporizador en el juego. Y la función clearInterval para detener el temporizador cuando finaliza el juego o cuando el jugador encuentra todas las parejas de cartas.
 Por otra parte, para mostrar brevemente las cartas antes de voltearlas boca abajo nuevamente voy a utilizar la función setTimeout.
 Con las promsesas voy ha determinar la puntuación del jugador utilizando el tiempo que ha tardado en resolverlo.
+Como método de almacenamiento utilizré LocalStorage.
