@@ -8,4 +8,5 @@ Primero, se mostrarán las cartas (el número de cartas irá variando en consecu
 Tendrás que pinchar en cada carta para que se puedan dar la vuelta y así revelar su contenido.
 Si las dos cartas en las cuales hayas pinchado coinciden, se quedarán hacia arriba, por lo que se verá el contenido de la carta.
 Si las cartas no coinciden, se volverán a voltear boca abajo y tendrás que recordar su ubicación para futuros intentos.
+
 Pero eso no es todo, he querido añadir un toque especial a este juego, por lo que, las cartas están personalizadas con imágenes significativas para mí. 
