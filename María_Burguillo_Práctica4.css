@@ -1,4 +1,23 @@
 body{
-    background-image: url(https://blog.aepla.es/wp-content/uploads/2019/12/consumo-frutas-verduras-aepla.jpeg);
+ background-color: black;
     
 }
+/*
+as propiedades display, grid-template-columns y 
+grid-gap al selector #1 para aplicar el diseño de cuadrícula 
+a los elementos <div> dentro del contenedor.
+*/
+  
+  #1 {
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  #1 div {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
