@@ -9,7 +9,50 @@
     <link rel="stylesheet"  href="María_Burguillo_Práctica4.css">
 
 </head>
+
 <body>
     
+    <div id="1">
+
+    </div>
+    
+<!-- 
+    //divs vacios con color
+    //y una veztu clicles se muestra la imaegn
+    //tamaño 
+    //cuando haya ccreado todos los divs con unnumeor aleaotorio voy elegiendo que divs tienen que imagenes
+ -->
+
+   <script>
+
+        const array = [];
+        const longitudArray = 16;
+
+        while (array.length < longitudArray) {
+        const randomNum = Math.floor(Math.random() * 16) + 1;
+        //math.floor es para redondear porque sino te da numeros con muchos decimales
+        
+        if (!array.includes(randomNum)) {
+            array.push(randomNum);
+
+        
+        //Se verifica si el número randomNum no está presente en el array utilizando el método includes()
+        //si el numero aleatorio no está en el array la condicion se evalua cono true y lo mete dentro del array
+       
+        }
+       
+        }
+
+        /*
+        hago un for para recorrer el array y le voy diciedo por parejas de posiciones a q div pertenece q imagen
+        */
+       for(i=0;i<array.length;i++){
+        array[i]
+        
+       }
+
+   </script>
+
 </body>
+
 </html>
