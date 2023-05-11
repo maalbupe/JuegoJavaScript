@@ -1,23 +1,26 @@
-body{
- background-color: black;
-    
+#timer {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  color: #925721;
+  background-color: #e6f7ff;
+  
+  
 }
-/*
-as propiedades display, grid-template-columns y 
-grid-gap al selector #1 para aplicar el diseño de cuadrícula 
-a los elementos <div> dentro del contenedor.
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+/*ç
+ el body debe tener un margen y relleno de 0, 
+ una altura mínima del 100% del viewport (vh significa altura de la ventana gráfica), 
+ y utiliza flexbox para centrar el contenido verticalmente y horizontalmente.
 */
-  
-  #1 {
-    background-color: #f1f1f1;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-  }
-  
-  #1 div {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-  }
-  

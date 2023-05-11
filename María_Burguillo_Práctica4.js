@@ -37,3 +37,42 @@ for (let i = 0; i < divs.length; i++) {
   const imagen = imagenes[array[i]];
   divs[i].style.backgroundImage = `url(${imagen})`;
 }
+
+
+//intento del cronometro
+const cronometro = document.getElementById('timer');
+let cronometroDuracion = 0;
+
+// Función para actualizar el temporizador
+function updateTimer() {
+  const minutos = Math.floor(cronometroDuracion / 60).toString().padStart(2, '0');
+  const segundos = (cronometroDuracion % 60).toString().padStart(2, '0');
+  cronometro.textContent = `${minutos}:${segundos}`;
+  cronometroDuracion++;
+}
+
+// Inicia el temporizador con un intervalo de 1 segundo
+const iniciocrono = setInterval(updateTimer, 1000);
+
+// fin intento del cronometro
+
+
+
+let parejasEncontradas = 0;
+const numeroTotalParejas = 8;
+let timerDuration = 0;
+
+//  encontrar parejas de cartas
+
+
+// Cuando el jugador encuentra una pareja de cartas
+parejasEncontradas++;
+
+// Verificar si el juego ha finalizado
+if (parejasEncontradas === numeroTotalParejas) {
+  // El jugador ha encontrado todas las parejas
+  // mostrar un mensaje de victoria o algo así
+  clearInterval(intervalId); // Detener el temporizador
+}
+
+
