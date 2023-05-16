@@ -15,12 +15,17 @@
   text-align: center;
   z-index: 1;
 }
+/*position: absolute; para ponerlo donde quieras independientemente de los demas contenedores
+ z-index: 1; hace que se coloque encima de otros elementos
+*/
 
 #todo {
   height: 100%;
   width: 100%;
   display: flex;
+  /*permite que los demas elementos dentro de el se puedan ajustar*/
   flex-wrap: wrap;
+  /*evita que se superpongan elemnetos*/
 }
 
 .card {
@@ -32,11 +37,13 @@
 }
 img {
   object-fit: cover;
+  /*esto hace que la imagen se ajuste proporcionalmente y se siga viendo bn*/
   height: 100%;
   width: 100%;
 }
 
 body {
+  background-color: black;
   margin: 0;
   padding: 0;
   min-height: 100vh;
