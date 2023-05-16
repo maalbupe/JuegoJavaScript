@@ -6,9 +6,23 @@
   padding: 10px;
   border-radius: 50px;
   margin-bottom: 20px;
+  margin-top: 20px;
   color: #925721;
-  
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
 }
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
 
 body {
   margin: 0;
@@ -19,12 +33,7 @@ body {
   align-items: center;
 }
 
-.todo{
-  padding: 25px;
-  border-radius: 10px;
-  background: #F8F8F8;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
+
 .cards, .card, .view{
   display: flex;
   align-items: center;
@@ -82,6 +91,7 @@ quitar el shake porq no funciona
 }
 .card .vistaFrontal img{
   width: 19px;
+  display: none;
 }
 .card .vistaTrasera img{
   max-width: 45px;
@@ -91,31 +101,9 @@ quitar el shake porq no funciona
 }
 .card.flip .vistaTrasera{
   transform: rotateY(0);
+  
 }
 .card.flip .vistaTrasera{
   transform: rotateY(180deg);
-}
-@media screen and (max-width: 700px) {
-  .cards{
-    height: 350px;
-    width: 350px;
-  }
-  .card .vistaTrasera img{
-    width: 17px;
-  }
-  .card .vistaTrasera img{
-    max-width: 40px;
-  }
-}
-@media screen and (max-width: 530px) {
-  .cards{
-    height: 300px;
-    width: 300px;
-  }
-  .card .vistaFrontal img{
-    width: 15px;
-  }
-  .card .vistaTrasera img{
-    max-width: 35px;
-  }
+
 }
